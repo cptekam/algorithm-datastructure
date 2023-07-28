@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_algorithm_datastructure_1690558279549-pr-trigger-input-set
+  identifier: Build_algorithm_datastructure_1690558279549prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_algorithm_datastructure_1690558279549
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
